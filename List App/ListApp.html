@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div class="card">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-presents"> Christmas List</label>
+                <input type="text" class="form-control" id="new-presents" placeholder="Item">
+            </div>
+            <div class="form-outline">
+                <label for="form-label" for="typeNumber">Price</label>
+                <input type="text" id="typeNumber" class="form-control" placeholder="$0.00" />
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <button id="add" class="btn btn-primary">Add to List</button>
+    </div>
+    <br>
+    <table id="items" class="table table-light table-striped">
+        <th> Item</th>
+        <th> Price</th>
+        <th></th>
+    </table>
+
+    
+
+
+<script src="ListApp.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
